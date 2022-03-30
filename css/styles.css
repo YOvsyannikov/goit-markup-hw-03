@@ -1,0 +1,251 @@
+:root {
+  --primary-text-color: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+  --paragraph-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+/* -----Header section------ */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: var(--accent-text-color);
+}
+.header-logo-span {
+  color: var(--title-text-color);
+}
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.header-item-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.header-item-link:hover,
+.header-item-link:focus {
+  color: var(--accent-text-color);
+}
+.curent {
+  color: var(--accent-text-color);
+}
+.header-contact-link {
+  color: var(--paragraph-text-color);
+  text-decoration: none;
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-text-color);
+}
+/* -----Hero section----- */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+}
+.hero-btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+
+  /* identical to box height, or 187% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.hero-btn:hover {
+  background: #2196f3;
+  cursor: pointer;
+  color: var(--white-text-color);
+}
+/* Feautures section */
+.features-title {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: var(--paragraph-text-color);
+}
+/* -----Our service section------ */
+.our-service-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* -----Our team section----- */
+.our-team {
+  background: #f5f4fa;
+}
+.our-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.our-team-item {
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.our-team-specialisation {
+  font-size: 16px;
+  line-height: 1.19;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--paragraph-text-color);
+}
+/* -----Footer section----- */
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: var(--accent-text-color);
+}
+.footer-logo-span {
+  color: white;
+}
+
+.footer-list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-address {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-email,
+.footer-tel {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* ------End of footer section------ */
+
+/* ------CSS Styles for Portfolio page------ */
+.portfolio-title {
+  display: none;
+}
+.btn {
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #f5f4fa;
+  list-style: none;
+}
+.btn:hover,
+.btn:focus {
+  background: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+.projects-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: var(--paragraph-text-color);
+}
