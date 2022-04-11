@@ -15,20 +15,22 @@
 <body>
     <!-- Header content -->
     <header class="header">
-        <nav class="header-nav container">
+        <div class="header-nav container">
+            <a class="button-size header-logo" href="index.html">Web<span class="header-logo-span">Studio</span></a>
+            <nav>
             <ul class="header-menu list">
-                <li class="header-item"><a class="button-size header-logo" href="index.html">Web<span class="header-logo-span">Studio</span></a></li>
                 <li class="header-item"><a class="button-size header-item-link curent" href="./index.html">Студия</a></li>
                 <li class="header-item"><a class="button-size header-item-link" href="./portfolio.html">Портфолио</a></li>
                 <li class="header-item"><a class="button-size header-item-link" href="">Контакты</a></li>
             </ul>
+            </nav>
             <ul class="header-contact">
                 <li class="header-item"><a class="button-size header-contact-link"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="header-item"><a class="button-size header-contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
     <!-- End of Header content -->
     <!-- Main content -->
@@ -36,15 +38,13 @@
     <!-- Section 1 -->
         <section class="hero">
             <div class="container">
-                <div class="hero-content">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero-btn">Заказать услугу</button>
-                </div>
             </div>
         </section>
     <!-- End of Section 1 -->
     <!-- Section 2 -->
-        <section class="features">
+        <section class="section">
             <div class="container">
             <h2 class="visually-hidden">особенности</h2>
             <ul class="features-list list">
@@ -69,7 +69,7 @@
         </section>
     <!-- End of Section 2 -->
     <!-- Section 3 -->
-        <section class="our-service">
+        <section class="section our-service">
             <div class="container">
                 <h2 class="our-service-title">Чем мы занимаемся</h2>
                 <ul class="our-service-list list">
@@ -81,29 +81,37 @@
         </section>
     <!-- End of Section 3 -->
     <!-- Section 4 -->
-        <section class="our-team">
+        <section class="section our-team">
             <div class="container">
             <h2 class="our-team-title">Наша команда</h2>
             <ul class="our-team-list list">
                 <li class="our-team-item">
                     <img src="images/img.jpg" alt="Игорь Демьяненко" width="270" />
+                <div class="our-team-text">
                     <h3 class="our-team-name">Игорь Демьяненко</h3>
                     <p class="our-team-specialisation">Product Designer</p>
+                </div>
                 </li>
                 <li class="our-team-item">
                     <img src="images/img(1).jpg" alt="Ольга Репина" width="270" />
+                <div class="our-team-text">
                     <h3 class="our-team-name">Ольга Репина</h3>
                     <p class="our-team-specialisation">Frontend Developer</p>
+                </div>
                 </li>
                 <li class="our-team-item">
                     <img src="images/img(2).jpg" alt="Николай Тарасов" width="270" />
+                <div class="our-team-text">
                     <h3 class="our-team-name">Николай Тарасов</h3>
                     <p class="our-team-specialisation">Marketing</p>
+                </div>
                 </li>
                 <li class="our-team-item">
                     <img src="images/img(3).jpg" alt="Михаил Ермаков" width="270" />
+                <div class="our-team-text">
                     <h3 class="our-team-name">Михаил Ермаков</h3>
                     <p class="our-team-specialisation">UI Designer</p>
+                </div>
                 </li>
             </ul>
             </div>
