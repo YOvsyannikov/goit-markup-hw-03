@@ -90,10 +90,6 @@ body {
   display: flex;
   align-items: center;
 }
-.button-size{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .header-item:nth-child(n+2) {
   margin-left: 50px;
 }
